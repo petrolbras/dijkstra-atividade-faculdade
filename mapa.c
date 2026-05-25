@@ -57,8 +57,7 @@ int mapa[ANDARES][LINHAS][COLUNAS] = {
     }
 };
 
-int caminhavel(int andar, int x, int y)
-{
+int caminhavel(int andar, int x, int y) {
 
     if (andar < 0 || andar >= ANDARES)
     {
